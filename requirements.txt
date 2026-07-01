@@ -1,0 +1,4 @@
+fastapi==0.136.3
+fastapi-cli==0.0.24
+fastapi-cloud-cli==0.19.0
+uvicorn==0.24.0
