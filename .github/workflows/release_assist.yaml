@@ -23,7 +23,7 @@ jobs:
         with:
           python-version: '3.14'
         
-      - run: pip install -r requirements.txt
+      - run: pip install -r release-assist/requirements.txt
       - run: pip install pyyaml jq
 
       - name: Get PR description
