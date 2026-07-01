@@ -1,4 +1,0 @@
-fastapi!=0.100.0
-payment-service>=3.0.0
-celery
-redis~=4.0.0
