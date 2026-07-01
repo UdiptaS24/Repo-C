@@ -4,6 +4,12 @@ on:
   pull_request:
     types: [labeled]
 
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
 jobs:
   use-release-assist:
     if: contains(github.event.pull_request.labels.*.name, 'release')
