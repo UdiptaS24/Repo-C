@@ -14,3 +14,5 @@ jobs:
   use-release-assist:
     if: contains(github.event.pull_request.labels.*.name, 'release')
     uses: UdiptaS24/Release-Assist/.github/workflows/release_assist_reusable.yaml@main
+    secrets:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
